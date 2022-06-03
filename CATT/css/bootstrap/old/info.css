@@ -1,0 +1,126 @@
+.item1{grid-area: item1;}
+.item2{grid-area: item2;}
+.item3{grid-area: item3;}
+
+.container{
+    display: grid;
+    grid-template-areas: "item1 item2 item3";
+    height: 11rem;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 1rem;
+    margin-top: -3%;
+    text-align: center;
+}
+
+.item1,.item2,.item3{
+    display: block;
+    height:7rem;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    margin-left: 10%;
+}
+
+
+.item1 img,.item2 img,.item3 img{
+    display: block;
+    height: 100%;
+    padding-left: 30%;
+
+}
+
+.info h1{
+    text-align: center;
+    font-weight: bold;
+    font-size:3rem;
+    margin: 1rem 0 2.5rem 0;
+    text-decoration:underline;
+}
+
+.info h2{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.info p{
+    margin: 0.2rem 0.3rem 1.5rem 0.2rem;
+    text-align: justify;
+}
+
+/*para las demas paginas haremos un cambio*/
+
+.info{grid-area: info;}
+.formatos{grid-area: formatos;}
+.recursos{grid-area: recursos;}
+
+
+.main{
+    display: grid;
+    grid-template-areas: "info info info info formatos"
+    "info info info info recursos";
+    height:100%;
+    width: 80%;
+    margin: 7rem 10% 0 10%;
+}
+
+.formatos,.recursos{
+    height: 10rem;
+    width: 20rem;
+
+}
+
+.recursos{
+    margin-top: -60%;
+}
+
+fieldset{
+    height: 100%;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 0.8rem;
+}
+
+fieldset legend{
+    margin-left: 33%;
+    padding: 0.5rem;
+    font-weight: bold;
+}
+
+.enlaces{
+    height: 100%;
+    border-radius: 0.8rem;
+    margin:-3%;
+}
+
+@media screen and (max-width:1239px) {
+    .container img{
+       padding: 0;
+    }
+    .item1,.item2,.item3{
+        text-align: left;
+        padding: 0 20% 0 10%;
+    }
+    .container{
+        margin-bottom: 5%;
+    }
+}
+
+@media screen and (max-width:750px){
+    .main{
+        margin: auto, ;
+    }
+    .container{
+        height: 11rem;
+        margin-top: -11%;
+    }
+    .item1,.item2,.item3{
+        height: 6rem;
+        text-align: center;
+        padding: 0;
+        margin-left: 0;
+    }
+}

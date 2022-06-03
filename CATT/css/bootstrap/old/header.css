@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.menuCATT{
+    height:4rem;
+    width: 100%;
+    border-top: 2rem solid #069;
+    position: fixed;
+    z-index: 1000;
+}
+
+.primary-menu{
+    height: 4rem;
+    background: none;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    background-color: white;
+}
+
+.primary-menu #logo{
+    height: 80%;
+    margin: 0.5rem 0 0.5rem 1.5rem;
+}
+
+.primary-menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    line-height: 3.8rem;
+}
+
+.primary-menu li a{
+    padding: 1rem;
+    color: #000;
+    text-decoration: none;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.primary-menu li a:hover{
+    color: #069;
+}
+
+.primary-menu li:hover> #etapas{
+    display: block;
+}
+
+#etapas{
+    display: none;
+    flex-direction: column;
+    margin-top: -1rem;
+    position:absolute;
+    border-radius: 0.5rem 0.5rem 0.5rem 0;
+    background-color:rgba(128,128,128, 0.4);
+}
+
+#etapas li{
+    border-bottom: 2.5px solid black;
+    line-height: 2rem;
+    width: 12rem;
+}
+
+#etapas li a{
+    display: block;
+    padding: 0.5rem;
+    width: 100%;
+    border-radius: 0%;
+}
+
+#etapas li a:hover{
+    color: white;
+    background-color: rgba(0,0,0, 0.4);
+    padding-left: 0.8rem;
+}
+
+#btn_menu{
+    display: none;
+}
+
+.aux{
+    width: 100%;
+    height: 1rem;
+    background-color: #069;
+}
+
+
+@media screen and (max-width:750px) {
+   .menuCATT{
+       border-top: 1.5rem solid #069;
+       height: 3rem;
+   }
+   .primary-menu{
+       height: 3rem;
+   }
+   .primary-menu #logo{
+       margin: 0.4rem 0 0.4rem 1.3rem;
+   }
+   .primary-menu ul{
+       line-height:3rem;
+   }
+
+   .primary-menu li a{
+        padding: 0.8rem;
+        font-size: 1rem;
+   }
+
+   #etapas li{
+        border-bottom: 2px solid black;
+        line-height: 2rem;
+        width: 10rem;
+    }
+
+    #etapas li a{
+        padding: 0.4rem;
+        width: 100%;
+        font-size: 0.8rem;
+    }
+
+    #etapas li a:hover{
+        padding-left: 0.6rem;
+    }
+
+    .aux{
+        height: 0.8rem;
+    }
+}
+
+
+@media screen and (max-width:600px) {
+    .menuCATT{
+        height: 2.7rem;
+    }
+
+    .primary-menu{
+       height: 2.7rem;
+    }
+
+    .primary-menu ul{
+        height:calc(60%-3.7rem);
+        width: 100%;
+        flex-direction: column;
+        background-color: #069;
+        position: fixed;
+        top:3.6rem;
+        margin-bottom: 0.5rem;
+
+        overflow-y: auto;
+        transition: 0.5s;
+        left: 100%;
+    }
+
+    .primary-menu li{
+        border-bottom: 3px solid white;
+        width: 100%;
+    }
+
+    .primary-menu li a{
+        width: 100%;
+    }
+
+    #etapas{
+        background-color: #069;
+        height: 80%;
+        position: relative;
+        top:0.5rem;
+        padding-left: 0.5rem;
+        left: 100%;
+    }
+
+    #etapas li{
+        width: 100%;
+        border: 0;
+    }
+    #etapas li a{
+        border-top: 2px solid white;
+    }
+
+    #btn_menu{
+        display: flex;
+        font-size: 150%;
+        margin: 0.5rem 2rem 0 0;
+        cursor: pointer;
+    }
+
+    .menu_item_visible{
+        left: 0%;
+    }
+
+    .aux{
+        height: 0.6rem;
+    }
+   
+ }
+

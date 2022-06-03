@@ -1,0 +1,247 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+/*indicamos las filas*/
+.menuCATT{grid-area: header;}
+#slider{grid-area: slider;}
+.main{grid-area: main;}
+footer{grid-area: footer;}
+
+/*iniciamos la distribucion del cuerpo*/
+body{
+    display: grid;
+    grid-template-areas: "header"
+    "slider" "contenido" "footer";
+    height: 100%;
+    width: 100%;
+}
+
+/*Propiedades del header*/
+.menuCATT{
+    height: 6rem;
+    width: 100%;
+    border-top: 2rem solid #069;
+    display: fixed;
+    z-index: 1000;
+}
+
+.primary-menu{
+    height: 4rem;
+    position: relative;
+    background: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.primary-menu #logo{
+    height: 80%;
+    width: 10%;
+    margin: 0.5rem  0 0 2rem;
+    border: 2px solid black;
+}
+
+.primary-menu ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    line-height:4rem;
+}
+
+.primary-menu li a{
+    padding-right: 1.5rem;
+    color: #000;
+    text-decoration: none;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+/*sub-menu*/
+#etapas{
+    display: none;
+    flex-direction: column;
+    margin-top: -1rem;
+    position:absolute;
+    border-radius: 0.5rem 0.5rem 0.5rem 0;
+    background-color:rgba(128,128,128, 0.4);
+}
+
+#etapas li a{
+    display: block;
+    padding: 0.5rem;
+    width: 100%;
+    border-radius: 0%;
+}
+
+#etapas li a:hover{
+    color: white;
+    background-color: rgba(0,0,0, 0.4);
+    padding-left: 0.8rem;
+}
+
+#btn_menu{
+    display: none;
+}
+
+
+/*acciones al pasar el cursor*/
+.primary-menu li a:hover{
+    color: #069;
+}
+
+.primary-menu li:hover> #etapas{
+    display: block;
+}
+
+
+/*Slider*/
+
+#slider{
+    height: 22rem;
+    width: 100%;
+}
+
+.carousel-inner{
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-caption {
+    margin-left: -15rem;
+    width: 60%;
+    height: 100%;
+    background-image: linear-gradient(to right, rgb(0,102,153),rgb(0,102,153),rgba(0,102,153,0.8),rgba(255,0,0,0));
+}
+.carousel-caption h5{
+    font-family: 'Viga', sans-serif;
+    padding-top: 15%;
+    font-size:250%;
+    font-weight: bold;
+}
+
+/*main*/
+
+.info{grid-area: info;}
+.formatos{grid-area: formatos;}
+.recursos{grid-area: recursos;}
+.norma{grid-area: norma;}
+
+.contenido{
+    display: grid;
+    grid-template-areas: "info info info info formatos"
+    "info info info info recursos"
+    "norma norma norma norma norma"
+    ;
+    height:100%;
+    width: 100%;
+    padding: 3rem 10% 0 10%;
+}
+
+/*Info*/
+
+.info{
+    width: 100%;
+    height: 100%;
+}
+
+.info h1{
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 2.5rem;
+}
+
+.info h2{
+    font-weight: bold;
+    padding: 3rem 0 2rem 0;
+    text-align: center;
+}
+
+/*Contenedor*/
+.item1{grid-area: item1;}
+.item2{grid-area: item2;}
+.item3{grid-area: item3;}
+
+.container{
+    display: grid;
+    grid-template-areas: "item1 item2 item3";
+    width: 100%;
+    height: 12rem;
+    padding: 1rem 25% 0  0;
+}
+
+.item1,.item2,.item3{
+    height: 8rem;
+    font-weight: bold;
+    padding:0 0% 0 30%;
+}
+
+.item1 img,.item2 img,.item3 img{
+    height: 100%;
+    display: block;
+}
+
+/*Paneles laterales*/
+
+.formatos,.recursos{
+    height: 10rem;
+    width: 20rem;
+    padding-left: 3rem;
+}
+
+.recursos{
+    margin-top: -60%;
+}
+
+fieldset{
+    height: 100%;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 0.8rem;
+}
+
+fieldset legend{
+    margin-left: 33%;
+    padding: 0.5rem;
+    font-weight: bold;
+}
+
+/*Normativa*/
+
+.norma{
+    height: 10rem;
+    width: 100%;
+    display: grid;
+    grid-template-areas: "h2 h2"
+    "normas normas1";
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.normas{
+    grid-area: normas; 
+    
+}
+.normas1{
+    grid-area: normas1; 
+   
+}
+
+.norma h2{
+    grid-area: h2;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.normas a, .normas1 a{
+    display: block;
+    padding:0.5rem 0 0 0.5rem;
+}
+
+
+/*Footer*/
+
+footer{
+    height: 10rem;
+}
+

@@ -1,0 +1,36 @@
+#slider{
+    height: 20rem;
+    width: 100;
+    margin-top: 4rem;
+    z-index: 0;
+}
+
+#container{
+    height: 25rem;
+    width: 100%;
+}
+
+.carousel-caption {
+    margin-left: -15rem;
+    margin-bottom: -1.2rem;
+    text-align: center;
+    width: 60%;
+    height: 100%;
+    background-image: linear-gradient(to right, rgb(0,102,153),rgb(0,102,153),rgba(0,102,153,0.8),rgba(255,0,0,0));
+}
+
+.carousel-caption h5{
+    font-family: 'Viga', sans-serif;
+    margin-bottom: 1rem;
+    margin-top: 7rem;
+    font-size: 3.5rem;
+}
+
+@media screen and (max-width:1120px) {
+    .carousel-caption h5{
+      padding-left: 1.5rem;
+     border: 2px solid black;
+    }
+    
+}
+
