@@ -63,9 +63,14 @@
     margin: 0 25% 0 25%;
 }
 
+.info{
+    width: 95%;
+}
+
 .info ul{
     list-style: none;
 }
+
 
 .cont-list{
     height: 100%;
@@ -80,6 +85,30 @@
 .container ul{
     list-style-type: square;
 }
+
+.maps{
+    border-radius: 0.8rem;
+    width: 100%;
+    margin: 0 2rem;
+}
+
+.cont-contact i{
+    font-size: 1.2rem;
+}
+
+.redes-sociales{
+    display: flex;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+
+.redes-sociales i{
+    font-size: 2rem;
+    color: #069;
+    margin-right: 1rem;
+}
+
+
 
 
 @media screen and (max-width:1149px){
@@ -159,6 +188,10 @@
     .index{
         border-top: 0 solid #069;
     }
+
+    .info{
+        width: 90%;
+    }
     .info h1{
         font-size: 1.5rem;
     }
@@ -195,6 +228,17 @@
     h3{
         font-size: 1.5rem;
         margin-bottom: -1rem;
+    }
+
+    .info li{
+        font-size: 0.9rem;
+    }
+    
+    .cont-contact{
+        flex-direction: column;
+    }
+    .maps{
+        margin: 2rem 0;
     }
 
 }
