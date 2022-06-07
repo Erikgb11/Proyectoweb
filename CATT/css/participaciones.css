@@ -1,0 +1,244 @@
+.indicadores{
+    width: 15%;
+}
+.tam-button{
+    width: 2rem;
+}
+
+.tam-slider{
+    height: 24rem;
+}
+.carousel-caption {
+    margin: 0 0 -1.5rem -16% ;
+    width: 60%;
+    height: 110%;
+    background-image: linear-gradient(to right, rgb(0,102,153),rgb(0,102,153),rgba(0,102,153,0.8),rgba(255,0,0,0));
+}
+
+.carousel-caption h5{
+     padding-top: 20%;
+    font-weight: bold;
+    font-size: 3.5rem;
+} 
+.carousel-caption p{
+    font-size: 1.2rem;
+}
+
+.tam-min{
+    min-width: 420px;
+}
+
+.index{
+        border-top: 2rem solid #069;
+ }
+
+.bordes{
+    border: 2px solid black;
+}
+.tam-container{
+    height: 11rem;
+}
+
+.b-bt-color{
+    border-bottom:1rem solid #069;
+}
+
+.panel-lateral{
+    width: 35%;
+}
+.documents{
+    padding-top: 2rem;
+}
+
+.panel-lateral a{
+    font-size: 0.9rem;
+}
+ 
+.panel-lateral h1{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.table{
+    width: 50%;
+    margin: 0 0% 0 0%;
+}
+
+.info{
+    width: 95%;
+}
+
+.info ul{
+    list-style: none;
+}
+
+
+.cont-list{
+    height: 100%;
+    width: 90%;
+    margin-bottom: 2rem;
+}
+
+.cont-list-p{
+    margin: 3rem 1rem;
+    width: 100%;
+}
+.container ul{
+    list-style-type: square;
+}
+
+.maps{
+    border-radius: 0.8rem;
+    width: 100%;
+    margin: 0 2rem;
+}
+
+.cont-contact i{
+    font-size: 1.2rem;
+}
+
+.redes-sociales{
+    display: flex;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+
+.redes-sociales i{
+    font-size: 2rem;
+    color: #069;
+    margin-right: 1rem;
+}
+
+
+
+
+@media screen and (max-width:1149px){
+    .tam-slider{
+        height: 20rem;
+    }
+    .carousel-caption {
+        margin: 0 0 -1.5rem -18% ;
+        width: 60%;
+        height: 110%;
+        background-image: linear-gradient(to right, rgb(0,102,153),rgb(0,102,153),rgba(0,102,153,0.8),rgba(255,0,0,0));
+    }
+
+    .carousel-caption h5{
+        padding-top: 20%;
+        margin-left: 3rem;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    .carousel-caption p{
+        margin-top: -0.2rem;
+        margin-left: 2rem;
+    }
+    .index{
+        border-top: 1.5rem solid #069;
+    }
+
+    .info h1{
+        font-size: 2rem;
+    }
+
+    .info p{
+        font-size: 1rem;
+    }
+
+
+    .tam-min{
+        height: 9rem;
+    }
+    .panel-lateral h1{
+        font-size: 1rem;
+    }
+    
+}
+
+@media screen and (max-width:720px){
+    .tam-slider{
+        height: 13rem;
+    }
+    .carousel-caption {
+        background-image: none;
+        text-align: center;
+        height: 50%;
+        width: 82%;
+        margin: -15rem 0 0 -1.5rem;
+       
+    }
+    .carousel-caption h5{
+        padding: 0;
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-left: -0.05rem;
+        opacity: 1;
+        background-color: #069;
+        border-radius: 2rem;
+    }
+    .carousel-caption p{
+        padding: 0 10% 0 10%;
+        font-size: 0.8rem;
+        margin-left: 0.2rem;
+        text-align: center;
+        background-color: #069;
+        border-radius: 1.8rem;
+        width: 100%;
+    }
+
+    .index{
+        border-top: 0 solid #069;
+    }
+
+    .info{
+        width: 90%;
+    }
+    .info h1{
+        font-size: 1.5rem;
+    }
+
+    .info p{
+        font-size: 0.9rem;
+    }
+
+    
+    .tam-container{
+        height: 9rem;
+    }
+
+    .info{
+        flex-direction: column;
+    }
+    .panel-lateral{
+        width: 100%;
+    }
+    
+    .table{
+        font-size: 0.405rem;
+        width: 100%;
+        margin: 0%;
+    }
+
+    .cont-list{
+        flex-direction: column;
+    }
+
+    .cont-list p{
+        width: 100%;
+    }
+    h3{
+        font-size: 1.5rem;
+        margin-bottom: -1rem;
+    }
+
+    .info li{
+        font-size: 0.9rem;
+    }
+    
+    .cont-contact{
+        flex-direction: column;
+    }
+    .maps{
+        margin: 2rem 0;
+    }
+
+}
