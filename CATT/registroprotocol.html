@@ -54,40 +54,25 @@
       <div class="info container h-100">
         <h1 class="h1 text-center pb-4 pt-5 font-weight-bold">Registro de Protocolo</h1>
         <form class="text-center">
-          <p>Ingrese su Email:</p>
-          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-envelope"></i></span>
-            <input type="email" name="email" placeholder="Email" required />
-          </div>
-          <p>Ingrese su Contraseña:</p>
-          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-lock"></i></span>
-            <input type="password" name="password" placeholder="Password" required />
-          </div>
-          <p>Ingrese de nuevo su Contraseña:</p>
-          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-lock"></i></span>
-            <input type="password" name="password" placeholder="Re-type Password" required />
-          </div>
-          <p>Ingrese su Nombre:</p>
+          <p>Ingrese el nombre del Protocolo</p>
           <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
-            <input type="text" name="name" placeholder="First Name" />
+            <input type="text" name="namep" placeholder="Nombre Protocolo" />
           </div>
+          <p>Ingrese un breve resumen del protocolo</p>
           <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
-            <input type="text" name="name" placeholder="Last Name" required />
+            <input type="text" name="resp" placeholder="Resumen Protocolo" />
           </div>
-          <p>Ingrese al director de TT:</p>
+          <div class="select_arrow">
+            <p>Ingrese pdf de su protocolo</p>
+            <input type="file" name="protocolo">
+          </div>
+          <p>Ingrese al director de Protocolo:</p>
           <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
-            <input type="text" name="name" placeholder="First Name" />
+            <input type="text" name="named" placeholder="Nombre Director" />
           </div>
           <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
-            <input type="text" name="name" placeholder="Last Name" required />
+            <input type="text" name="aped" placeholder="Apellidos Director" required />
           </div>
-          <p>Ingrese su Telefono:</p>
-          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-phone"></i></span>
-              <input type="text" name="phone" placeholder="Telefono" required />
-            </div>
-            <p>Ingrese su Boleta:</p>
-          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-id-card"></i></span>
-              <input type="text" name="boleta" placeholder="Boleta" required />
-            </div>
           <p>¿Cuantos alumnos son en el protocolo? </p>
           <div class="input_field select_option">
               <select>
@@ -97,6 +82,66 @@
                 <option>4</option>
               </select>
           <br>
+          <p>Datos primer alumno:</p>
+          <p>Ingrese su Email:</p>
+          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-envelope"></i></span>
+            <input type="email" name="email1" placeholder="Email" required />
+          </div>
+          <p>Ingrese su Nombre:</p>
+          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
+            <input type="text" name="name1" placeholder="Nombre(s)" />
+          </div>
+          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
+            <input type="text" name="ape1" placeholder="Apellidos" required />
+          </div>
+          <p>Ingrese su Telefono:</p>
+          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-phone"></i></span>
+            <input type="text" name="ape1" placeholder="Telefono" required />
+          </div>
+          <p>Ingrese su Boleta:</p>
+          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-phone"></i></span>
+            <input type="text" name="boleta1" placeholder="Boleta" required />
+          </div>
+          <p>Datos segundo alumno:</p>
+          <p>Ingrese su email:</p>
+          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-envelope"></i></span>
+            <input type="email" name="email2" placeholder="Email" required />
+          </div>
+          <p>Ingrese su Nombre:</p>
+          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
+            <input type="text" name="name2" placeholder="Nombre(s)" />
+          </div>
+          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
+            <input type="text" name="ape2" placeholder="Apellidos" required />
+          </div>
+          <p>Ingrese su Telefono:</p>
+          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-phone"></i></span>
+            <input type="text" name="ape2" placeholder="Telefono" required />
+          </div>
+          <p>Ingrese su Boleta:</p>
+          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-phone"></i></span>
+            <input type="text" name="boleta2" placeholder="Boleta" required />
+          </div>
+          <p>Datos tercer alumno:</p>
+          <p>Ingrese su email:</p>
+          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-envelope"></i></span>
+            <input type="email" name="email3" placeholder="Email" required />
+          </div>
+          <p>Ingrese su Nombre:</p>
+          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
+            <input type="text" name="name3" placeholder="Nombre(s)" />
+          </div>
+          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
+            <input type="text" name="ape3" placeholder="Apellidos" required />
+          </div>
+          <p>Ingrese su Telefono:</p>
+          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-phone"></i></span>
+            <input type="text" name="ape3" placeholder="Telefono" required />
+          </div>
+          <p>Ingrese su Boleta:</p>
+          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-phone"></i></span>
+            <input type="text" name="boleta3" placeholder="Boleta" required />
+          </div>
           <input class="button" type="submit" value="Registrar"/>
         </form>
       </div>
