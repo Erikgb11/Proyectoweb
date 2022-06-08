@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Protocolo</title>
+
+     <!--CSS-->
+     <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css">
+     <link rel="stylesheet" href="./css/index.css">
+     <link rel="stylesheet" href="./css/edicionprotocol.css">
+ 
+     <!--Font Awesome-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+     integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm bg-light sticky-top index b-bt-color">
+        <div class="container-fluid d-flex">
+           <a href="#" class="navbar-brand font-weight-bold">CATT</a> 
+
+            <!--Menu collapse-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon">  <i class="fas fa-bars" id="btn_user"></i></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent"> 
+                <ul class="navbar-nav">
+                    <li class="nav-item user">
+                        <a class="nav-link text-dark grey-bold" href="#"> <i class="fa-solid fa-user"></i> Usuario</a>
+                    </li>
+
+                    <li class="nav-item user">
+                        <a class="nav-link text-dark grey-bold" href="#"> Cerrar Sesión</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h1 class="mb-5 font-weight-bold">Información de tu Protocolo</h1>
+        <div class="mb-3 mt-3">
+            <form id="formTitulo" name="formTitulo" class="d-flex">
+                <input name="name" id="titulo" data-validetta="name" value='Titulo' disabled />
+                <div class="botones">
+                    <a class="btn btn-outline-primary cambiarTitulo">Modificar</a>
+                    <button type="submit" name="btnUpdateTitulo" id="btnUpdateTitulo" class="btn btn-outline-success updateTitulo" disabled>Actualizar</button>
+                </div>                      
+            </form>
+        </div>
+    
+        <div class="mb-3 mt-3">
+            <form id="formResumen" name="formResumen" class="d-flex">
+                <input name="name" id="resumen" data-validetta="name" value='Resumen' disabled />
+                <div class="botones">
+                    <a class="btn btn-outline-primary cambiarResumen">Modificar</a>
+                    <button type="submit" name="btnUpdateResumen" id="btnUpdateResumen" class="btn btn-outline-success updateResumen" disabled>Actualizar</button>
+                </div>                      
+            </form>
+        </div>
+    </div>
+
+      <!--JavaScript-->
+      <script src="./js/jquery/jquery-3.6.0.min.js"></script>
+      <script src="./js/bootstrap/popper.min.js"></script>
+      <script src="./js/bootstrap/bootstrap.min.js"></script>
+      <script src="./js/bootstrap/bootstrap.bundle.js"></script>
+      <script src="./js/edicionprotocol.js"></script>
+     
+    
+</body>
+</html>
