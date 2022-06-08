@@ -10,11 +10,19 @@
 	<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
 <!--===============================================================================================-->
 	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+	<link
+	rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+	integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+	crossorigin="anonymous"
+	referrerpolicy="no-referrer"
+/>
 	<!--===============================================================================================-->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css"> 
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" href="./js/validetta/dist/validetta.css">
 <!--===============================================================================================-->
 </head>
 <body>
@@ -22,20 +30,20 @@
 	<div class="limiter">
 		<div class="container-login100" style="background-image: url('imgs/bg-01.jpg');">
 			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
-				<form class="login100-form validate-form">
+				<form id="formLogin" class="login100-form validate-form">
 					<span class="login100-form-title p-b-49">
 						Inicia Sesión
 					</span>
 
-					<div class="wrap-input100 validate-input m-b-23" data-validate = "Username is reauired">
-						<span class="label-input100">Boleta</span>
-						<input class="input100" type="text" name="boleta" placeholder="Escribe tu boleta" size="10">
+					<div class="wrap-input100 validate-input m-b-23">
+						<label class="label-input100">Boleta</label>
+						<input class="input100" type="text" id="boleta" name="boleta" placeholder="Escribe tu boleta" size="10" data-validetta="required">
 						<span class="focus-input100" data-symbol="&#xf206;"></span>
 					</div>
 
-					<div class="wrap-input100 validate-input" data-validate="Password is required">
-						<span class="label-input100">Contraseña</span>
-						<input class="input100" type="password" name="pass" placeholder="Escribe tu contraseña">
+					<div class="wrap-input100 validate-input">
+						<label class="label-input100">Contraseña</label>
+						<input class="input100" type="password" id="pass" name="pass" placeholder="Escribe tu contraseña" data-validetta="required">
 						<span class="focus-input100" data-symbol="&#xf190;"></span>
 					</div>
 					
@@ -69,12 +77,16 @@
 	<div id="dropDownSelect1"></div>
 	
 <!--===============================================================================================-->
-	<script src="js/jquery/jquery-3.2.1.min.js"></script>
+	<script src="./js/jquery/jquery-3.6.0.min.js"></script>
 <!--===============================================================================================-->
-	<script src="bootstrap/js/popper.js"></script>
-	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="./js/bootstrap/popper.min.js"></script>
+	<script src="./js/bootstrap/bootstrap.min.js"></script>
 <!--===============================================================================================-->
 	<script src="js/main.js"></script>
-
+	<script src="./pages/login_AX.php"></script>
+	<script src="./js/validetta/dist/validetta.min.js"></script>
+    <script src="./js/validetta/localization/validettaLang-es-ES.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/login.js"></script>
 </body>
 </html>
