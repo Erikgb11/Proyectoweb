@@ -123,7 +123,7 @@
         <div class=" container panel-lateral ">
             <div class="documents ">
                 <h1 class="font-weight-bold">Bienvenido
-                <?php echo $infGetNombre="$infGetNombre[0]" ?>
+                <?php echo $infGetNombre="$infGetNombre[1]" ?>
                 </h1><!-- aqui colocar el nombre del usuario -->
                 <h1 class="font-weight-bold">¿Qué deseas hacer?</h1>
                 <ul class="list-group">
