@@ -73,75 +73,38 @@
           <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
             <input type="text" name="aped" placeholder="Apellidos Director" required />
           </div>
+          <script type="text/javascript">
+
+            function mostraralumnos() {
+              let unalumno = "<p>Datos primer alumno:</p><p>Ingrese su Email:</p><div class='input_field'> <span><i aria-hidden='true' class='fa fa-envelope'></i></span><input type='email' name='email1' placeholder='Email' required /></div><p>Ingrese su Nombre:</p><div class='input_field'> <span><i aria-hidden='true' class='fa fa-user'></i></span><input type='text' name='name1' placeholder='Nombre(s)' /></div><div class='input_field'> <span><i aria-hidden='true' class='fa fa-user'></i></span><input type='text' name='ape1' placeholder='Apellidos' required /></div><p>Ingrese su Telefono:</p><div class='input_field'> <span><i aria-hidden='true' class='fa fa-phone'></i></span><input type='text' name='ape1' placeholder='Telefono' required /></div><p>Ingrese su Boleta:</p><div class='input_field'> <span><i aria-hidden='true' class='fa fa-phone'></i></span><input type='text' name='boleta1' placeholder='Boleta' required /></div>";
+              let dosalumno=unalumno+"<p>Datos segundo alumno:</p><p>Ingrese su email:</p><div class='input_field'><span><i aria-hidden='true' class='fa fa-envelope'></i></span><input type='email' name='email2' placeholder='Email' required /></div><p>Ingrese su Nombre:</p><div class='input_field'> <span><i aria-hidden='true' class='fa fa-user'></i></span><input type='text' name='name2' placeholder='Nombre(s)' /></div><div class='input_field'> <span><i aria-hidden='true' class='fa fa-user'></i></span><input type='text' name='ape2' placeholder='Apellidos' required /></div><p>Ingrese su Telefono:</p><div class='input_field'> <span><i aria-hidden='true' class='fa fa-phone'></i></span><input type='text' name='ape2' placeholder='Telefono' required /></div><p>Ingrese su Boleta:</p><div class='input_field'> <span><i aria-hidden='true' class='fa fa-phone'></i></span><input type='text' name='boleta2' placeholder='Boleta' required /></div>"
+              let tresalumno=dosalumno+"<p>Datos tercer alumno:</p><p>Ingrese su email:</p><div class='input_field'> <span><i aria-hidden='true' class='fa fa-envelope'></i></span><input type='email' name='email3' placeholder='Email' required /></div><p>Ingrese su Nombre:</p><div class='input_field'> <span><i aria-hidden='true' class='fa fa-user'></i></span><input type='text' name='name3' placeholder='Nombre(s)' /></div><div class='input_field'> <span><i aria-hidden='true' class='fa fa-user'></i></span><input type='text' name='ape3' placeholder='Apellidos' required /></div><p>Ingrese su Telefono:</p><div class='input_field'> <span><i aria-hidden='true' class='fa fa-phone'></i></span><input type='text' name='ape3' placeholder='Telefono' required /></div><p>Ingrese su Boleta:</p><div class='input_field'> <span><i aria-hidden='true' class='fa fa-phone'></i></span><input type='text' name='boleta3' placeholder='Boleta' required /></div>"
+              
+                if (document.getElementById('nalumnos').value == "2")
+                {
+                  document.getElementById("guop").innerHTML = unalumno;
+                }
+                else if (document.getElementById('nalumnos').value == "3") {
+                  document.getElementById("guop").innerHTML = dosalumno;
+                }
+                else if(document.getElementById('nalumnos').value == "4") {
+                  document.getElementById("guop").innerHTML = tresalumno;
+                }else{
+                  document.getElementById("guop").innerHTML = "";
+                }
+            
+            }
+            </script>
           <p>¿Cuantos alumnos son en el protocolo? </p>
           <div class="input_field select_option">
-              <select>
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
+              <select id="nalumnos" onchange="mostraralumnos()">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
               </select>
           <br>
-          <p>Datos primer alumno:</p>
-          <p>Ingrese su Email:</p>
-          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-envelope"></i></span>
-            <input type="email" name="email1" placeholder="Email" required />
-          </div>
-          <p>Ingrese su Nombre:</p>
-          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
-            <input type="text" name="name1" placeholder="Nombre(s)" />
-          </div>
-          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
-            <input type="text" name="ape1" placeholder="Apellidos" required />
-          </div>
-          <p>Ingrese su Telefono:</p>
-          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-phone"></i></span>
-            <input type="text" name="ape1" placeholder="Telefono" required />
-          </div>
-          <p>Ingrese su Boleta:</p>
-          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-phone"></i></span>
-            <input type="text" name="boleta1" placeholder="Boleta" required />
-          </div>
-          <p>Datos segundo alumno:</p>
-          <p>Ingrese su email:</p>
-          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-envelope"></i></span>
-            <input type="email" name="email2" placeholder="Email" required />
-          </div>
-          <p>Ingrese su Nombre:</p>
-          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
-            <input type="text" name="name2" placeholder="Nombre(s)" />
-          </div>
-          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
-            <input type="text" name="ape2" placeholder="Apellidos" required />
-          </div>
-          <p>Ingrese su Telefono:</p>
-          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-phone"></i></span>
-            <input type="text" name="ape2" placeholder="Telefono" required />
-          </div>
-          <p>Ingrese su Boleta:</p>
-          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-phone"></i></span>
-            <input type="text" name="boleta2" placeholder="Boleta" required />
-          </div>
-          <p>Datos tercer alumno:</p>
-          <p>Ingrese su email:</p>
-          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-envelope"></i></span>
-            <input type="email" name="email3" placeholder="Email" required />
-          </div>
-          <p>Ingrese su Nombre:</p>
-          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
-            <input type="text" name="name3" placeholder="Nombre(s)" />
-          </div>
-          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
-            <input type="text" name="ape3" placeholder="Apellidos" required />
-          </div>
-          <p>Ingrese su Telefono:</p>
-          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-phone"></i></span>
-            <input type="text" name="ape3" placeholder="Telefono" required />
-          </div>
-          <p>Ingrese su Boleta:</p>
-          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-phone"></i></span>
-            <input type="text" name="boleta3" placeholder="Boleta" required />
-          </div>
+          <div id="guop"></div>
           <input class="button" type="submit" value="Registrar"/>
         </form>
       </div>
