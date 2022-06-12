@@ -20,7 +20,30 @@ $(document).ready(()=>{
                             window.location.href = "./pages/inicio_alumno.php";
                         }
                     });
-                }else{
+                }else
+                if(AX.cod ==2){
+                    Swal.fire({
+                        title: 'CATT',
+                        html: AX.msj,
+                        icon: 'success',
+                        confirmButtonText: 'OK',
+                        didDestroy:()=>{
+                            window.location.href = "./pages/iniciocatt.php";
+                        }
+                    })
+                }else
+                if(AX.cod ==3){
+                    Swal.fire({
+                        title: 'CATT',
+                        html: AX.msj,
+                        icon: 'success',
+                        confirmButtonText: 'OK',
+                        didDestroy:()=>{
+                            window.location.href = "./pages/inicio_profe.php";
+                        }
+                    })
+                }
+                else{
                     Swal.fire({
                         title: 'CATT',
                         html: AX.msj,
