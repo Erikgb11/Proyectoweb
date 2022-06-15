@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.0
+-- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 15-06-2022 a las 07:32:17
--- Versión del servidor: 10.4.24-MariaDB
--- Versión de PHP: 8.1.6
+-- Tiempo de generación: 15-06-2022 a las 20:56:44
+-- Versión del servidor: 10.4.22-MariaDB
+-- Versión de PHP: 8.0.13
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de datos: `catt4`
+-- Base de datos: `catt`
 --
 
 -- --------------------------------------------------------
@@ -44,6 +44,7 @@ CREATE TABLE `alumno` (
 --
 
 INSERT INTO `alumno` (`boleta`, `nombre`, `apellidos`, `correo`, `telefono`, `contrasena`, `auditoria`, `id_rol`, `carrera`) VALUES
+('2022350279', 'Karen', 'López', 'Karen@hotmail.com', '1234567890', '81dc9bdb52d04dc20036dbd8313ed055', '2022-06-15 03:53:58', '1', 'ISC'),
 ('2022630001', 'Juan Manuel', 'Díaz Díaz', 'juan@hotmail.com', '5500000001', 'd8578edf8458ce06fbc5bb76a58c5ca4', '2022-06-15 00:06:17', '3', 'ISC'),
 ('2022630002', 'David ', 'Martínez Martínez', 'david@gmail.com', '5500000002', 'd8578edf8458ce06fbc5bb76a58c5ca4', '2022-06-15 00:07:42', '3', 'ISC'),
 ('2022630003', 'Ana', 'Domínguez  Domínguez', 'Ana@gmail.com', '5500000003', 'd8578edf8458ce06fbc5bb76a58c5ca4', '2022-06-15 00:08:27', '3', 'ISC'),
@@ -69,7 +70,8 @@ CREATE TABLE `director` (
 --
 
 INSERT INTO `director` (`registro`, `id_TT`, `id_prof`) VALUES
-(1, '2022630001', '1993630001');
+(1, '2022630001', '1993630001'),
+(2, '2022630002', '1993630005');
 
 -- --------------------------------------------------------
 
@@ -90,7 +92,8 @@ CREATE TABLE `equipo` (
 INSERT INTO `equipo` (`registro`, `id_TT`, `boleta`) VALUES
 (1, '2022630001', '2022630001'),
 (2, '2022630001', '2022630007'),
-(3, '2022630001', '2022630008');
+(3, '2022630001', '2022630008'),
+(4, '2022630002', '2022350279');
 
 -- --------------------------------------------------------
 
@@ -156,6 +159,13 @@ CREATE TABLE `sinodal` (
   `id_prof` varchar(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+--
+-- Volcado de datos para la tabla `sinodal`
+--
+
+INSERT INTO `sinodal` (`id_sinodal`, `id_TT`, `id_prof`) VALUES
+('1', '2022630001', '1993630001');
+
 -- --------------------------------------------------------
 
 --
@@ -174,7 +184,8 @@ CREATE TABLE `tt` (
 --
 
 INSERT INTO `tt` (`id_TT`, `titulo`, `resumen`, `pdf`) VALUES
-('2022630001', 'Agente Inteligente para capacitación de personal de TI.', 'Desarrollar un agente inteligente tipo chatbot para proveer capacitación básica al personal que recién ingresa a un área operativa de TI.', '');
+('2022630001', 'Agente Inteligente para capacitación de personal de TI.', 'Desarrollar un agente inteligente tipo chatbot para proveer capacitación básica al personal que recién ingresa a un área operativa de TI.', ''),
+('2022630002', 'Orientador virtual para la elección de productos.', 'Desarrollar una aplicación que genere recomendaciones de productos con base en los perfiles, preferencias, calificaciones, opiniones de usuarios y tipos de clientes.', '');
 
 --
 -- Índices para tablas volcadas
