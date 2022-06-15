@@ -15,10 +15,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
+    <!-- <meta http-equiv="refresh" content="10;./inicio_alumno.php"> -->
+
     <title>Registro de Protocolo</title>
    
     <!--CSS-->
@@ -30,10 +32,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
 </head>
 <body>
-
-
     <!--Header-->
     <nav class="navbar navbar-expand-sm bg-light sticky-top index b-bt-color">
         <div class="container-fluid d-flex">
@@ -68,9 +70,29 @@
     </nav>
       <div class="info container h-100">
         <h1 class="h1 text-center pb-4 pt-5 font-weight-bold">Registro de Protocolo</h1>
-        <?php
-                if($RegProtocolo==0){
-            ?>
+        
+<!-- Ejecutar formulario si el alumno aun no registra protocolo -->
+    <?php
+      if($RegProtocolo==0){
+    ?>
+
+    <!-- Tiempo asignado para el registro de protocolo -->
+    <script>
+      function r(){
+        Swal.fire({
+          title: 'TWEB 20222',
+          text: "Lo siento. Se agotó tu tiempo de registro",
+          icon: 'error',
+          confirmButtonText: 'OK',
+          footer:"ESCOM",
+            didDestroy:()=>{
+              window.location.href = "./inicio_alumno.php";
+            }
+        })
+      }
+      setTimeout("r()",10000);
+    </script>
+
         <form class="text-center" id="formProt" enctype="multipart/form-data" method="post">
           <p>Ingrese el nombre del Protocolo</p>
           <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
@@ -127,6 +149,13 @@
           <input class="button" type="submit" value="Registrar" id="btnEnviar"/>
         </form>
       </div>
+
+  <!-- Mostrar alerta de tiempo -->
+      <script type="text/javascript">
+      var band='1';
+      </script>
+
+  <!-- Si ya registro su protocolo, mostrar un mensaje -->
       <?php
             }
             else{
@@ -136,17 +165,24 @@
       <br>
       <br>
       <h4><a class="pb-3 pt-5" href="./inicio_alumno.php">Regresar</a></h4>
+
       <?php
             }
       ?>
 </body>
 
+<!-- ============================================================================================= -->
     <script src="./../js/jquery/jquery-3.6.0.min.js"></script>
+<!-- ============================================================================================= -->
     <script src="./../js/validetta/dist/validetta.min.js"></script>
     <script src="./../js/validetta/localization/validettaLang-es-ES.js"></script>
+<!-- ============================================================================================= -->
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-
-  <!-- Guardar PDF -->
+<!-- ============================================================================================= -->
+    <script src="./../js/registroprotocolo.js"></script>
+    <script src="./../js/registroprotocolo_Alert.js"></script>
+  
+<!-- =================================GUARDAR PDF================================================ -->
   <script>
   const btnEnviar = document.querySelector("#btnEnviar");
   const Protocolo = document.querySelector("#Protocolo");
@@ -165,8 +201,6 @@
           } 
       });
 </script>
-  
-    <script src="./../js/registroprotocolo.js"></script>
 </html>
 <?php 
 }
