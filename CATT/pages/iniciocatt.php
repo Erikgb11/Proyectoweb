@@ -123,7 +123,7 @@
                 <h1 class="font-weight-bold">Bienvenid@ Administrador</h1><!-- aqui colocar el nombre del usuario -->
                 <h1 class="font-weight-bold">¿Qué deseas hacer?</h1>
                 <ul class="list-group">
-                    <a href=""class="list-group-item list-group-item-action">Asignar Sinodales</a></li>
+                    <a href="./asignacionsinodales.php"class="list-group-item list-group-item-action">Asignar Sinodales</a></li>
                     <a href="" class="list-group-item list-group-item-action">Gestionar Información de Protocolos</a></li>
                     <a href="" class="list-group-item list-group-item-action">Gestionar Información de Alumnos</a></li>
                     <a href="" class="list-group-item list-group-item-action">Solicitudes Directores de TT</a></li>
