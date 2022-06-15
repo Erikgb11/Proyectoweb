@@ -10,14 +10,17 @@
         $infUsuario = mysqli_fetch_row($resCheckUsuario);
         $respAX["cod"] = 1;
     }
-    if(substr($boleta, 0, 1) == "1" ){
-        $sqlCheckUsuario = "SELECT * FROM profesor WHERE id_prof = '$boleta' AND contrasena = '$pass'";
+
+    if(substr($boleta,0,1)=='1'){
+        $sqlCheckUsuario = "SELECT * FROM profesor WHERE id_prof='$boleta' AND contrasena = '$pass'";
         $resCheckUsuario = mysqli_query($conexion,$sqlCheckUsuario);
         $infUsuario = mysqli_fetch_row($resCheckUsuario);
-        if($infUsuario[8]=="1"){
-            $respAX["cod"] = 2;
-        }else if($infUsuario[8]=="2"){
-            $respAX["cod"] = 3;
+        if(mysqli_num_rows($resCheckUsuario) == 1){
+            if($infUsuario[8]=="1"){
+                $respAX["cod"] = 2;
+            }else if($infUsuario[8]=="2"){
+                $respAX["cod"] = 3;
+            }  
         }
     }
 
