@@ -1,0 +1,477 @@
+----------------------- Page 1-----------------------
+
+GUÍA PARA PUBLICACIONES TÉCNICAS 
+
+                                                                   1 
+
+----------------------- Page 2-----------------------
+
+                      INSTITUTO POLITECNICO NACIONAL 
+
+                        ESCUELA SUPERIOR DE CÓMPUTO 
+
+                            SUBDIRECCIÓN ACADÉMICA 
+
+                 No. 1                Serie: Amarilla           Abril de 1997 
+
+                                   Documentos Técnicos 
+
+                     GUÍA PARA PUBLICACIONES TÉCNICAS 
+
+RESUMEN 
+
+El  presente  es  una guía  para la  publicación  de:  reportes,  informes,  comunicaciones 
+
+técnicas,  notas  de  cursos,  traducción  de  manuales,   resultados  de   investigaciones, 
+
+presentación de prototipos, proyectos terminales, etc.   Para  facilitar la identificación de 
+
+un  documento,    éstos se  clasificarán en  cuatro  series a  saber: azul  (técnicos). roja 
+
+(traducciones). verde (notas de cursos y/o comunicaciones técnicas y amarilla (proyectos 
+
+terminales).  Las publicaciones no tienen un período regular de emisi6n, ya que dependen 
+
+de  como  los alumnos, profesores e investigadores presenten  sus  trabajos.   Los comités 
+
+evaluadores calificarán los reportes para su publicación, indicando el tipo de serie y las 
+
+modificaciones a las que haya lugar. 
+
+                                                                                           2 
+
+----------------------- Page 3-----------------------
+
+ÍNDICE 
+
+  1.  Introducción                                       …………………            4 
+
+  2.  Clasificación                                      …………………            4 
+
+  3.  Seguimiento                                        …………………            5 
+
+  4.  Índice y capítulos                                 …………………            6 
+
+  5.  Portada                                            …………………            6 
+
+  6.  Advertencia                                        …………………            7 
+
+   7  Agradecimientos                                    …………………            8 
+
+  8.  Manuscrito                                         …………………            8 
+
+  9.  Tablas y figuras                                   …………………            9 
+
+ 10.  Referencias y bibliografía                         …………………            9 
+
+ 11.  Procedimiento para la publicación de reportes técnicos …………………        9 
+
+ 12.  Oficina de publicaciones                           …………………            10 
+
+ 13.  Ejemplo                                            …………………            12 
+
+                                                                             3 
+
+----------------------- Page 4-----------------------
+
+1. INTRODUCCIÓN 
+
+El propósito de esta guía es normar la publicación de los documentos técnicos que  dan 
+
+constancia  de  las  actividades  de  investigación  y  desarrollo  tecnológico  realizadas  por 
+
+alumnos, profesores e investigadores de la Escuela Superior de Cómputo. 
+
+Los reportes técnicos  se han  clasificado en  cuatro  series a  saber:  serie azul,  serie roja, 
+
+serie verde y serie amarilla, con el fin de distinguir los documentos según su contenido. 
+
+Es  conveniente    manifestar   que  el trabajo   de publicación    requiere  de  una  seriación, 
+
+corrección de estilo, difusión y distribución, es requisito entonces contar con una oficina 
+
+de publicaciones que se encargue de dar apoyo a profesores y alumnos en la elaboración 
+
+de sus reportes. 
+
+El  presente  documento  trata  con  la  clasificación,  seguimiento,  fechas  de  publicación, 
+
+portada, advertencia, agradecimientos, corrección de estilo, referencias y bibliografía de 
+
+los reportes técnicos.   Además se muestra un ejemplo de como se presenta la carátula y 
+
+las referencias de un  reporte técnico y  el  formato para  el  arbitraje  de  la publicación y 
+
+evaluación. 
+
+2. CLASIFICACIÓN 
+
+Para poder distinguir los documentos, las publicaciones se clasifican en cuatro series: 
+
+INVESTIGACIÓN: 
+
+Azul: Debe contener resultados de investigación básica y desarrollo tecnológico original. 
+
+Estos resultados son producto entre otros, de los proyectos que se originen en la escuela y 
+
+que pueden  ser  sometidos  a publicación en  revistas de  la  especialidad que  se trate, así 
+
+como  de  trabajos  en   áreas  que  por   su novedad  no    tengan   canales  de  difusión  bien 
+
+                                                                                                 4 
+
+----------------------- Page 5-----------------------
+
+establecidos.  Los alumnos del Programa Institucional para Formación de Investigadores 
+
+deberán de publicar sus trabajos en esta serie. 
+
+Amarilla: En  esta  serie  se presentarán  los resultados de la investigación hecha para  el 
+
+Proyecto Terminal, requisito fundamental para la obtención del título de las carreras que 
+
+se imparten en esta escuela. 
+
+DOCENCIA: 
+
+Verde:  Debe  de  contener,  notas  de  cursos,  monografías,  compendios,  colecciones  de 
+
+problemas,   comunicaciones    técnicas,  En  este  caso  las publicaciones   se  hacen  con 
+
+derechos de autor reservados, previo a su publicación como libro de texto, para su uso en 
+
+cursos del IPN. 
+
+ADMINISTRATIVA: 
+
+Roja: Debe  contener, traducción de manuales, compendio de programas y paquetes de 
+
+programación  de  dominio público, memoria  de  cálculo  de  instalaciones, notas técnicas 
+
+sobre  procedimientos    de  laboratorio,  instructivos  de  utilización  de  programas   de 
+
+computadora, especificaciones funcionales de proyectos  de  aplicación,  especificaciones 
+
+de diseño de sistemas de cómputo, descripción de diagramas eléctricos y electrónicos de 
+
+equipo digital construidos dentro del IPN o fuera previo permiso del autor. 
+
+3. SEGUIMIENTO 
+
+Toda publicación  será  llamada  “REPORTE  TÉCNICO”, la  cual para  su  seguimiento y 
+
+referencia  tendrá un  número    de  registro oficial dentro  de su  serie,  asignado  por el 
+
+responsable de la oficina de publicaciones. 
+
+                                                                                            5 
+
+----------------------- Page 6-----------------------
+
+4. ÍNDICE Y CAPÍTULOS 
+
+El  índice  está  formado por  los nombres  de  los  capítulos y  relacionado  con  el plan  de 
+
+trabajo, constituye la guía de elaboración.  Podemos incluir el índice al final del trabajo o 
+
+en   las primera   páginas.   Las  subdivisiones    de  los  capítulos  llevarán  enumeración 
+
+jerárquica dentro del mismo. 
+
+5.  PORTADA GENERAL (Ejemplo página 13) 
+
+Para  la  presentación  del  reporte  técnico  de  Trabajo  Terminal,   la  portada  general  del 
+
+informa deberá contener los siguientes elementos: 
+
+    •   Escudos del IPN y de la ESCOM 
+
+    •   Leyenda del Instituto Politécnico Nacional 
+
+    •   Leyenda de la Escuela Superior de Cómputo. 
+
+    •   Título del Trabajo Terminal a presentar 
+
+    •   Leyenda: que para  cumplir con la opción de titulacion curricular, en la carrera de 
+
+        Ingeniero en Sistemas Computacionalec 
+
+        con especialidad en ............" la opción de especialidad correspondiente 
+
+    •   Nombre del autor 
+
+    •   Nombre de los asesores 
+
+    •   Fecha  de  presentación  (fecha    determinada  por  la  CATT  según  calendario  de 
+
+        presentaciones) 
+
+5.1 PORTADA ESPECÍFICA 
+
+Para  la presentación del reporte técnico de Trabajo Terminal,       la portada específica del 
+
+informa técnico deberá contener: TITULO, NOMBRE DE AUTOR (ES) NÚMERO DE 
+
+SERIE, FECHA  DE  PUBLICACIÓN  Y  RESUMEN  éste último no  deberá  exceder  de 
+
+ 150 palabras.  Además un conjunto de palabras clave al final del resumen , no mayores a 
+
+ 10 (como puede verse en el ejemplo). En el caso de que un informe técnico se acepte en 
+
+otro idioma, éste llevará un resumen ("abstracto") en español. 
+
+                                                                                               6 
+
+----------------------- Page 7-----------------------
+
+El título del documento (Reporte Técnico) estará acorde con el contenido y el idioma en 
+
+el que se haya escrito el informe y deberá ser explicativo y breve. 
+
+El nombre del autor o de los autores se escribirá inmediatamente después del título y se 
+
+anotarán  con '*" o número  arábigo las referencias de los autores al pie de página de la 
+
+portada, indicando su posición, dirección electrónica, etc. 
+
+La  fecha  de publicación  se escribirá en la portada a la derecha y  en  el  otro  extremo el 
+
+número de serie (como puede verse en el ejemplo), estos números se asignarán en forma 
+
+consecutiva  dentro  de  su  serie,  aún  cuando  cambie  de  año,  en  caso  de  reimpresi6n  el 
+
+número     originalmente   asignado    no   cambiará,   únicamente    se   agregará   la  leyenda 
+
+"reimpresión", primera edición, segunda edición. etc. 
+
+6. ADVERTENCIA 
+
+La hoja siguiente a la portada deberá tener sin excepción, un texto de advertencia de los 
+
+resultados que se publican, sobre todo en los reportes técnicos serie azul.       El texto será el 
+
+siguiente: 
+
+ “Este  informe contiene  información desarrollada por       la Escuela Superior de  Cómput o 
+
+del  Instituto  pol itécnico  Nacional   a  partir de  datos  y  documentos     con  derecho   de 
+
+pr opiedad y por  lo tanto su uso queda restringido a las aplicaciones que exp lícitamente 
+
+se convengan”. 
+
+La aplicación no convenida exime a la escuela de su responsabilidad técnica y da lugar a 
+
+las consecuencias legales que para tal efecto se determinen. 
+
+Información adicional sobre este reporte técnico podrá obtenerse en: 
+
+                                                                                                 7 
+
+----------------------- Page 8-----------------------
+
+El Departamento de Formación Integral  e Institucional de  ESCOM,            del Instituto  Poli- 
+
+técnico Nacional,     situada    en  Av.  Juan  de Dios Bátiz  s/n  esquina  Miguel  Othón  de 
+
+Mendizabal. Unidad Profesional Adolfo López Mateos. Teléfono: 5729-6000 Extensión 
+
+52021. 
+
+7. AGRADECIMIENTOS 
+
+Los  agradecimientos  son  opcionales,  excepto  cuando  el  proyecto  al  que  se  refiere  el 
+
+reporte técnico fue apoyado por  alguna institución o empresa, estos agradecimientos se 
+
+colocarán en la siguiente hoja de la hoja de advertencia. 
+
+8.MANUSCRITO 
+
+Todos  los  reportes  serán  escritos  considerando  56 renglones y  65  columnas  (como  es 
+
+usual en un procesador de palabras), en cualesquiera  de los tipos  Times New Roman  o 
+
+Times  Roman,     de  preferencia   se  deberá  de  utilizar el  procesador   de  textos  WORD 
+
+VERSIÓN 6 o superior. 
+
+El  título  de  la  publicación  será  en "negrita"  con  letra  mayúscula,  los  subtítulos  con 
+
+minúsculas pero  también       en  "negrita"  . E  texto  o  cuerpo  del  documento  podría  estar 
+
+escrito (no necesariamente) a doble espacio.      Es recomendable que cuando se declare un 
+
+subtítulo  se deje doble espacio, entre  el párrafo anterior al  subtítulo, en  caso de que  se 
+
+numeren deberá de seguirse un orden jerárquico entre los párrafos. 
+
+Los márgenes superior, inferior e izquierdo son a tres centímetros y el derecho a dos.         La 
+
+numeración de las páginas será consecutiva al centro y pie de página.           Los dibujos , en 
+
+caso de existir, no deberán rebasar los márgenes establecidos. 
+
+                                                                                                 8 
+
+----------------------- Page 9-----------------------
+
+9. TABLAS Y FIGURAS 
+
+Las tablas serán numeradas con arábigos con un título al inicio de las mismas. 
+
+Las  figuras podrán  hacerse  a  tinta  en  caso  de  no  contar  con  un  paquete  para  realizar 
+
+gráficos, tendrán una leyenda descriptiva, y la numeración a diferencia de las tablas, se 
+
+hará al pie de la figura. 
+
+No se aceptarán fórmulas hechas a mano. 
+
+10. REFERENCIAS Y BIBLIOGRAFIA 
+
+La bibliografía deberá realizarse en hoja separada, con el mismo tipo de letra y puede ir 
+
+en diferentes formas, pero la más recomendable es aquélla en la cual se da la bibliografía 
+
+en forma alfabética. 
+
+Las referencias que son citadas en el cuerpo del trabajo entre corchetes llevan el mismo 
+
+formato y se sugiere que se indique de la siguiente manera: 
+
+    •   Fernández, V. F.            (1996): Reporte Técnico RRT-11, Institución. 
+
+    •   Hernández, G. R.            (1994): Título del libro, Editorial, ciudad. 
+
+    •   Norzagaray, C. M.           (1993): Título del Articulo, Título de la Revista, 
+
+    •   Volumen (número),            página inicial - página final. 
+
+11. PROCEDIMIENTO PARA LA PUBLICACIÓN DE REPORTES TECNICOS 
+
+Todo  reporte  técnico  deberá  ser  remitido  para    su  publicación  al  Comité  Editorial  de 
+
+Publicaciones Técnicas, formado por un grupo de especialistas adscritos o no a la Escuela 
+
+Superior de Cómputo, a los cuales se les dará crédito por su participación en la revisión 
+
+del reporte técnico para su publicación. 
+
+                                                                                                  9 
+
+----------------------- Page 10-----------------------
+
+El tiempo estimado de revisión será de 15 días hábiles como máximo, a fin de agilizar las 
+
+publicaciones. 
+
+La revisión del reporte técnico consiste en una crítica rigurosa pero constructiva.           Todas 
+
+las  observaciones  y    comentarios    se  harán   por  escrito,  entregándose    un  formato    (se 
+
+muestra al final de este documento) para las anotaciones y  sugerencias.            El objeto de la 
+
+revisión es obtener publicaciones de buena calidad y presentación. 
+
+12. OFICINA DE PUBLICACIONES 
+
+La  oficina   de  publicaciones  es  la   encargada   de  las  correcciones  de   estilo,  para  que 
+
+posteriormente  el  autor  ajuste  los  cambios  o  sugerencias  al  documento  y        quedar   de 
+
+acuerdo  (autor y  corrector  de  estilo) para  su  publicación.     La  oficina  de publicaciones 
+
+puede, si así lo desea el autor (sólo para profesores e investigadores)  , mecanografiar e 
+
+imprimir el documento para su última revisión. 
+
+La oficina de publicaciones es la indicada para vigilar la correcta presentación del reporte 
+
+técnico,  observando  la  ortografía  claridad  tanto  en  el  texto  como  en  la  semántica,  el 
+
+formato, etc. 
+
+La oficina de publicaciones lleva a cabo las siguientes actividades: 
+
+    •   Revisión de estilo. 
+
+    •   Asignación de los números consecutivos según la serie. 
+
+    •    Solicitud  de arbitraje al comité editorial (enviar  el documento al revisor para  su 
+
+        arbitraje). 
+
+    •   Impresión del reporte técnico. 
+
+    •   Encuadernación       (elegir   correctamente     el  color    de   la  pasta   y   la   serie 
+
+        correspondiente). 
+
+                                                                                                   10 
+
+----------------------- Page 11-----------------------
+
+    •   Almacenamiento  (Se  revisará  con  tiempo  la  existencia  de  los  ejemplares  y  se 
+
+        notificará al autor si desea una nueva reimpresión , con la oportunidad de corregir 
+
+        y  aumentar  el documento;  Si el autor no desea otra reímpresi6n se pondrá  en la 
+
+        lista de publicaciones agotadas.    La oficina  siempre  contará con cinco copias de 
+
+        cada  ejemplar,  si  una persona  solicita un  informe  agotado,  se  cobrará un  costo 
+
+        adicional por fotocopiado. 
+
+    •   Distribución   (envío  de   los reportes   técnicos  a  las  bibliotecas,  centros  dé 
+
+        investigación, universidades, etc.). 
+
+    •   Venta   (sí la hay  verificará  algunos  parámetros    como   son:  gastos  directos  e 
+
+        indirectos, factores de ganancia, etc., para calcular el costo del reporte técnico) . 
+
+    •   Mecanografía. 
+
+    •   Dibujos (o fotografías si es necesario). 
+
+    •   Seguimiento    (se   deberá   seguir  la  publicación    durante   todo   el  proceso, 
+
+        comprometiéndose a cumplir con la fecha de la publicación). 
+
+13. EJEMPLO 
+
+                                                                                             11 
+
+----------------------- Page 12-----------------------
+
+EJEMPLO: 
+
+                          INSTITUTO POLITÉCNICO NACIONAL 
+
+                            ESCUELA SUPERIOR DE CÓMPUTO 
+
+                                              E   S  C   O  M 
+
+                                               Trabajo Terminal 
+
+                                 “SABER 1: Módulo de Trabajos Terminales” 
+
+                     Que para cumplir con la opción de titulación curricular en la carrera de: 
+
+                     “Ingeniero en Sistemas Computacionales con especialidad en Sistemas” 
+
+                                                   Presentan 
+
+                                          Hernández Camaño Lázaro 
+
+                                            Muciño Gutiérrez Erick 
+
+                                                  Directores 
+
+                 Dr. Miguel Santiago Suárez Castañon       Ing. Gilberto Sánchez Quintanilla 
+
+                                                                      México, D.F., a 18 de mayo de 2006. 
+
+                                                                                                     12 
