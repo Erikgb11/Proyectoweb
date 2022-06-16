@@ -132,7 +132,7 @@
                 <ul class="list-group">
                     <a href="./registroprotocolo.php"class="list-group-item list-group-item-action">Registro de Protocolo</a></li>
                     <a href="" class="list-group-item list-group-item-action">Consultar información del protocolo</a></li>
-                    <a href="" class="list-group-item list-group-item-action">Editar información del protocolo</a></li>
+                    <a href="./edicionprotocolo.php" class="list-group-item list-group-item-action">Editar información del protocolo</a></li>
                 </ul>
             </div>
         </div>
