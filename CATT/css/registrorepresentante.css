@@ -5,6 +5,7 @@ input,select{margin-bottom: 1rem;}
 label{font-weight: bold; }
 
 @media screen and (max-width:720px){
+    h3{font-size: 1.5rem;}
     .formRegistro{padding:0%;}
     label{font-size: 0.9rem;}
 }
