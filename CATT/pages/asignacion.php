@@ -19,7 +19,7 @@
             echo $id_prof;
             echo $id_tt;
             mysqli_query($conexion, "INSERT INTO sinodal (id_sinodal, id_TT, id_prof) VALUE (NULL, '$id_tt', '$id_prof')");
-            header("location:./iniciocatt.PHP");
+            header("location:./asignacionsinodales.PHP");
         }
     }
 

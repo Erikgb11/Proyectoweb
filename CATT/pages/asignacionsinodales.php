@@ -173,6 +173,7 @@
                     while ($mostrar3=mysqli_fetch_array($result3))
                     {
                         echo $mostrar3['nombre'];
+                        echo " ";
                         echo $mostrar3['apellido'];
                         echo "<br>";
                         echo "<br>";
@@ -191,6 +192,7 @@
                     while ($mostrar3=mysqli_fetch_array($result3))
                     {
                         echo $mostrar3['nombre'];
+                        echo " ";
                         echo $mostrar3['apellido'];
                         echo "<br>";
                         echo "<br>";
