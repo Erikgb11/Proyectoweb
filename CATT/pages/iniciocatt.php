@@ -125,8 +125,7 @@
                 <ul class="list-group">
                     <a href="./asignacionsinodales.php"class="list-group-item list-group-item-action">Asignar Sinodales</a></li>
                     <a href="./gestionprotocolos.php" class="list-group-item list-group-item-action">Gestionar Información de Protocolos</a></li>
-                    <a href="" class="list-group-item list-group-item-action">Gestionar Información de Alumnos</a></li>
-                    <a href="" class="list-group-item list-group-item-action">Solicitudes Directores de TT</a></li>
+                    <a href="./gestionalumnos.php" class="list-group-item list-group-item-action">Gestionar Información de Alumnos</a></li>
                 </ul>
             </div>
         </div>
