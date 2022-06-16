@@ -86,8 +86,8 @@
                     <th>Nombres</th>
                     <th>Telefonos</th>
                     <th>Correos</th>
+                    <th>Sinodales</th>
                     <th>Director</th>
-                    <th>PDF</th>
                     </tr>
                 </thead>
                 <tr>
@@ -173,6 +173,7 @@
                     while ($mostrar3=mysqli_fetch_array($result3))
                     {
                         echo $mostrar3['nombre'];
+                        echo " ";
                         echo $mostrar3['apellido'];
                         echo "<br>";
                         echo "<br>";
@@ -180,16 +181,36 @@
                     }
                 }
                 ?></td>
-                    <td>Pdf.pdf</td>
+                <td><?php 
+                $sql2 = "SELECT * from director where id_TT = $idtt";
+                $result2 = mysqli_query($conexion,$sql2);
+                while ($mostrar2=mysqli_fetch_array($result2))
+                {
+                    $boleta = $mostrar2['id_prof'];
+                    $sql3 = "SELECT * from profesor where id_prof = $boleta";
+                    $result3 = mysqli_query($conexion,$sql3);
+                    while ($mostrar3=mysqli_fetch_array($result3))
+                    {
+                        echo $mostrar3['nombre'];
+                        echo " ";
+                        echo $mostrar3['apellido'];
+                        echo "<br>";
+                        echo "<br>";
+                        echo "<br>";
+                    }
+                }
+                ?></td>
             </table>
-            <select name="profesores_disp" id="sinodales" data-validetta="required">
-                <option value="">--Seleccionar--</option>
+            <form action="asignacion.php" method="post">
+            <select name="id" id="sinodales" data-validetta="required">
+                <option value="">--Seleccionar Sinodal--</option>
                 <?php
                     $sqlprof = "SELECT * from profesor";
                     $resultprof = mysqli_query($conexion,$sqlprof);
                     while ($mostrarprof=mysqli_fetch_array($resultprof)){
                 ?>
-                        <option value=""><?php echo $mostrarprof['id_prof'];
+                        <option value= <?php echo $mostrarprof['id_prof'] ?>
+                        ><?php echo $mostrarprof['id_prof'];
                         echo " - ";
                         echo $mostrarprof['nombre'];
                         echo " ";
@@ -199,7 +220,11 @@
                     }
                 ?>
                     </select>
-                    <button type="asignar" class="btn btn-primary w-20">Asignar Sinodal</button>
+                    <select name="id_tt" id="TT">
+                        <option value=<?php echo $idtt ?>><?php echo $idtt ?></option>
+                    </select>
+                    <button type="submit" class="btn btn-primary w-20">Asignar Sinodal</button>
+                </form>
             <?php
                     }
                 ?>
