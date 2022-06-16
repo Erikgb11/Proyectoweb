@@ -116,7 +116,7 @@
                 <h1 class="font-weight-bold">¿Qué deseas hacer?</h1>
                 <ul class="list-group">
                     <a href=""class="list-group-item list-group-item-action">Registro para Director de TT</a></li>
-                    <a href="" class="list-group-item list-group-item-action">Consultar Participaciones</a></li>
+                    <a href="./consultattprofes.php" class="list-group-item list-group-item-action">Consultar Participaciones</a></li>
                 </ul>
             </div>
         </div>
